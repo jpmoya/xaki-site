@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XAKI — Product Leadership & Strategy Consulting | Jean-Philippe Moya</title>
+  <meta name="description" content="Jean-Philippe Moya helps startups and enterprises ship products used by millions. Fractional CPO, product strategy, and organizational transformation. 15+ years. Based in Toronto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f4ff',
+              100: '#dbe4ff',
+              200: '#bac8ff',
+              500: '#4263eb',
+              600: '#3b5bdb',
+              700: '#364fc7',
+              900: '#1c2541',
+              950: '#0f172a',
+            }
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .gradient-text {
+      background: linear-gradient(135deg, #4263eb 0%, #7048e8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
+  </style>
+</head>
+<body class="font-sans text-gray-900 bg-white antialiased">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-extrabold tracking-tight">XAKI</a>
+      <div class="hidden sm:flex items-center gap-8">
+        <a href="#services" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">Services</a>
+        <a href="#work" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">Work</a>
+        <a href="#about" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">About</a>
+        <a href="#contact" class="text-sm font-medium text-white bg-brand-600 rounded-full px-5 py-2 hover:bg-brand-700 transition-colors">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-32 sm:pt-40 pb-16 sm:pb-24 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
+      <div class="flex-1">
+        <div class="inline-flex items-center gap-2 bg-brand-50 text-brand-600 text-xs font-semibold uppercase tracking-widest px-3 py-1.5 rounded-full mb-6">
+          <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+          Available for new engagements
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
+          Hi, I'm JP.<br>
+          <span class="gradient-text">I build high-functioning<br>product teams.</span>
+        </h1>
+        <p class="text-lg text-gray-500 max-w-lg leading-relaxed mb-4">
+          I've spent 15 years coaching software teams — from startups to Fortune 500s — helping them ship products used by millions. I'm all about helping teams find their groove and build stuff people actually want.
+        </p>
+        <p class="text-base text-gray-400 mb-8">Based in Toronto. Working with teams across North America.</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="inline-block text-sm font-semibold text-white bg-brand-600 rounded-full px-7 py-3 hover:bg-brand-700 transition-colors shadow-lg shadow-brand-600/20">
+            Start a conversation
+          </a>
+          <a href="#work" class="inline-block text-sm font-semibold text-gray-600 bg-gray-100 rounded-full px-7 py-3 hover:bg-gray-200 transition-colors">
+            See the work
+          </a>
+        </div>
+      </div>
+      <div class="flex-shrink-0">
+        <div class="relative">
+          <div class="absolute -inset-4 bg-gradient-to-br from-brand-100 to-purple-100 rounded-3xl -z-10"></div>
+          <img
+            src="jp-photo.jpg"
+            alt="Jean-Philippe Moya"
+            class="w-64 h-64 rounded-2xl object-cover shadow-xl"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section class="py-12 px-6 border-y border-gray-100 bg-gray-50/50">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest text-center mb-8">Organizations that believe in their teams</p>
+      <div class="flex flex-wrap justify-center items-center gap-x-10 gap-y-4 text-gray-400 font-semibold text-base sm:text-lg">
+        <span>McKinsey & Co.</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>Avis Budget Group</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>EQ Bank</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>Borrowell</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>FreshBooks</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>Coinsquare</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>Flexday</span>
+        <span class="text-gray-200 hidden sm:inline">|</span>
+        <span>Nanoleaf</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outcomes -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div>
+          <p class="text-4xl font-extrabold gradient-text mb-2">15+</p>
+          <p class="text-sm text-gray-500">Years leading product teams</p>
+        </div>
+        <div>
+          <p class="text-4xl font-extrabold gradient-text mb-2">50+</p>
+          <p class="text-sm text-gray-500">Growth experiments led at a single client</p>
+        </div>
+        <div>
+          <p class="text-4xl font-extrabold gradient-text mb-2">20+</p>
+          <p class="text-sm text-gray-500">Agile teams rolled out at Avis</p>
+        </div>
+        <div>
+          <p class="text-4xl font-extrabold gradient-text mb-2">300%</p>
+          <p class="text-sm text-gray-500">User growth driven at Borrowell</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-24 px-6 bg-gray-50" id="services">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-2xl mb-16">
+        <h2 class="text-sm font-semibold text-brand-600 uppercase tracking-widest mb-3">Services</h2>
+        <p class="text-3xl sm:text-4xl font-bold leading-tight mb-4">
+          End-to-end product strategy, growth, and execution.
+        </p>
+        <p class="text-gray-500 leading-relaxed">For AI, SaaS, and scale-ups building products in competitive and regulated environments. I take direct accountability for strategies, delivery, and outcomes.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-6">
+
+        <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">Fractional CPO</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mb-4">
+            Executive-level product leadership without the full-time hire. I own the roadmap, run discovery and prioritization, mentor your PMs, and align stakeholders — typically 2-3 days a week over 3+ months.
+          </p>
+          <ul class="text-xs text-gray-400 space-y-1.5">
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Doubled activation and paid conversion at a major email marketing platform</li>
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Led 50+ growth experiments that delivered best month on record in a decade</li>
+          </ul>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">Product Strategy</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mb-4">
+            Clarity on what to build and why. I validate product-market fit, sharpen positioning, optimize pricing and packaging, and build roadmaps that connect product decisions to business outcomes.
+          </p>
+          <ul class="text-xs text-gray-400 space-y-1.5">
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Helped Borrowell prioritize bets that drove 300% engaged user growth (300K to 1M)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Shaped Flexday's business model — concept to in-market in under 6 months</li>
+          </ul>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">Organizational Transformation</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mb-4">
+            Shift from project-driven to product-driven. I restructure teams around cross-functional ownership, establish agile ways of working, and coach executives toward a customer-centric mindset.
+          </p>
+          <ul class="text-xs text-gray-400 space-y-1.5">
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Rolled out 20+ agile "Feature Teams" at Avis Budget Group over 18 months</li>
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Personally coached executives from waterfall to customer-led delivery</li>
+          </ul>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">AI Strategy & Implementation</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mb-4">
+            Practical AI adoption — not hype decks. I help teams identify high-impact opportunities, design responsible implementation plans, and move from proof-of-concept to production with measurable results.
+          </p>
+          <ul class="text-xs text-gray-400 space-y-1.5">
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Building AI-powered products and internal tools for SMBs</li>
+            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#9656;</span> Focus on practical adoption that drives efficiency, not slides about "the future"</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section class="py-24 px-6 bg-brand-950 text-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-sm font-semibold text-brand-500 uppercase tracking-widest mb-6">Philosophy</h2>
+      <blockquote class="text-2xl sm:text-3xl font-bold leading-snug mb-8">
+        "Create focus, reward outcomes, and treat people right."
+      </blockquote>
+      <p class="text-gray-400 leading-relaxed mb-6">
+        What Google learned from its quest to build the perfect team is the importance of psychological safety, reliability, clarity on roles, and a sense of purpose. I'd add that individuals need to know their well-being and personal development matter — and that the team keeps a sense of light-heartedness while doing the work.
+      </p>
+      <p class="text-gray-400 leading-relaxed">
+        High-functioning teams will change your business. I love helping them reach their potential.
+      </p>
+    </div>
+  </section>
+
+  <!-- Case Studies -->
+  <section class="py-24 px-6" id="work">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-2xl mb-16">
+        <h2 class="text-sm font-semibold text-brand-600 uppercase tracking-widest mb-3">Case Studies</h2>
+        <p class="text-3xl sm:text-4xl font-bold leading-tight">
+          A few stories from the field.
+        </p>
+      </div>
+
+      <!-- McKinsey -->
+      <div class="mb-8 border border-gray-100 rounded-2xl overflow-hidden">
+        <div class="p-8 sm:p-10">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">Enterprise Data Platform</span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">McKinsey & Co. — OrgSolutions</h3>
+          <p class="text-gray-500 leading-relaxed mb-4">
+            McKinsey's OrgSolutions creates digital products for organizations to improve Talent, Culture, Change, and Operating Models. We helped establish the strategic direction and ship the Firm's de facto HR/Talent analytics and ML platform — leveraged by hundreds of consultants to generate data-driven insights that bolster proposals and projects delivered to executives of the world's largest companies.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-6 mt-6">
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Tech Stack</p>
+              <p class="text-sm text-gray-500">AWS Sagemaker, Jupyter Notebooks, TensorFlow, Redshift, RDS/Athena, Glue, Lambda</p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Outcomes</p>
+              <ul class="text-sm text-gray-500 space-y-1">
+                <li>Hundreds of pitches per year enhanced with HR/Talent analytics</li>
+                <li>Thousands of data-scientist hours saved quarterly</li>
+                <li>Unlocked insights from previously siloed data across the Firm</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coinsquare -->
+      <div class="mb-8 border border-gray-100 rounded-2xl overflow-hidden">
+        <div class="p-8 sm:p-10">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">Crypto / Fintech</span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Coinsquare</h3>
+          <p class="text-gray-500 leading-relaxed mb-4">
+            Canada's first leading crypto exchange came to us looking to grow beyond early-adopters. We redesigned and re-platformed their web and mobile trading and wallet products. Shipped the full re-platform in under 9 months and continued with in-market optimizations leading up to their Series A.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-6 mt-6">
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Tech Stack</p>
+              <p class="text-sm text-gray-500">Native iOS/Android, ReactJS, Amplitude</p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Outcomes</p>
+              <ul class="text-sm text-gray-500 space-y-1">
+                <li>Full re-platform shipped in under 9 months</li>
+                <li>Acquisition and engagement went through the roof</li>
+                <li>Supported growth through Series A</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Borrowell -->
+      <div class="mb-8 border border-gray-100 rounded-2xl overflow-hidden">
+        <div class="p-8 sm:p-10">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">Fintech / Consumer</span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Borrowell</h3>
+          <p class="text-gray-500 leading-relaxed mb-4">
+            Canada's leader in financial education, on a mission to help Canadians make better financial decisions. We helped Borrowell prioritize the bets — mobile app, financial coach, and more — that would deliver on their Series A growth goals. Using primary research, we identified behavioral personas and their jobs-to-be-done, prioritized based on LTV, and ran in-market acquisition experiments to predict demand.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-6 mt-6">
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Approach</p>
+              <p class="text-sm text-gray-500">Behavioral personas, JTBD framework, LTV prioritization, landing page experiments, user analytics</p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Outcomes</p>
+              <ul class="text-sm text-gray-500 space-y-1">
+                <li>300% increase in engaged users (300K to 1M)</li>
+                <li>Financial performance needed to secure Series B</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flexday -->
+      <div class="mb-8 border border-gray-100 rounded-2xl overflow-hidden">
+        <div class="p-8 sm:p-10">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">B2B Marketplace</span>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Flexday</h3>
+          <p class="text-gray-500 leading-relaxed mb-4">
+            Founded in 2017 at the height of the coworking boom, Flexday is a B2B marketplace helping growing businesses meet their evolving office space needs. They came to us with a B2C idea. We helped refine the consumer value proposition, plan their go-to-market, and design and ship their MVP — a mobile app for flexible coworking and a host booking platform.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-6 mt-6">
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Tech Stack</p>
+              <p class="text-sm text-gray-500">Native iOS/Android, Firebase, Heap Analytics, Cobot</p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Outcomes</p>
+              <ul class="text-sm text-gray-500 space-y-1">
+                <li>Concept to in-market in under 6 months</li>
+                <li>Revenue almost immediately after launch</li>
+                <li>Scaled to add their primary B2B offering on the same platform</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- More projects list -->
+      <div class="border border-gray-100 rounded-2xl p-8 sm:p-10 bg-gray-50/50">
+        <h3 class="text-lg font-bold mb-6">More projects at TWG / Deloitte Digital</h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3 text-sm text-gray-500">
+          <div><strong class="text-gray-700">FreshBooks</strong> — Android mobile apps</div>
+          <div><strong class="text-gray-700">Nanoleaf</strong> — Initial iOS app</div>
+          <div><strong class="text-gray-700">MaRS</strong> — Startup advisor CRM</div>
+          <div><strong class="text-gray-700">Reklaim/Killi</strong> — Ethereum blockchain mobile apps</div>
+          <div><strong class="text-gray-700">D1G1T</strong> — Portfolio manager webapp</div>
+          <div><strong class="text-gray-700">KPMB</strong> — Website redesign</div>
+          <div><strong class="text-gray-700">Setter</strong> — Initial mobile app</div>
+          <div><strong class="text-gray-700">Kimberfire</strong> — Jewellery builder webapp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-24 px-6 bg-gray-50" id="about">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row gap-12 md:gap-20 items-start">
+        <div class="flex-shrink-0 md:sticky md:top-28">
+          <img
+            src="jp-photo.jpg"
+            alt="Jean-Philippe Moya"
+            class="w-48 h-48 rounded-2xl object-cover shadow-lg"
+          />
+        </div>
+        <div class="flex-1">
+          <h2 class="text-sm font-semibold text-brand-600 uppercase tracking-widest mb-3">About</h2>
+          <p class="text-3xl sm:text-4xl font-bold mb-6">Jean-Philippe Moya</p>
+          <div class="space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              I spent the last 15+ years as a Product Manager and leader at TWG/Deloitte, as well as working independently — helping enterprises and startups ship technology products that today are used by millions of people. I focus on Travel, Financial Services, and Consumer Services.
+            </p>
+            <p>
+              Most recently, I've focused on helping organisations become more product-centric — working with and coaching executive leaders and boots-on-the-ground teams. I've personally seen dozens of organizations from the inside, analyzed what works and what doesn't from the perspective of talent, culture, and process.
+            </p>
+            <p>
+              At TWG (acquired by Deloitte), I grew from Product Manager to Director of Client Services and Product Leader, specializing in FinTech and Data & Analytics. I worked with clients like McKinsey, Coinsquare, FreshBooks, Borrowell, Nanoleaf, and many more — shaping strategy, designing products, and shipping them.
+            </p>
+            <p>
+              I'm also a founder. I started Lab416, a Toronto digital agency, and currently run Benji's Plant Care — a field services business where I apply the same product and operational thinking to the physical world. I don't just advise. I build.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-3 text-sm mt-8">
+            <span class="bg-white text-gray-600 px-3.5 py-1.5 rounded-full border border-gray-200 font-medium">BASc Engineering, University of Toronto</span>
+            <span class="bg-white text-gray-600 px-3.5 py-1.5 rounded-full border border-gray-200 font-medium">Pragmatic Certified (PMC-I)</span>
+            <span class="bg-white text-gray-600 px-3.5 py-1.5 rounded-full border border-gray-200 font-medium">Amplitude Certified</span>
+            <span class="bg-white text-gray-600 px-3.5 py-1.5 rounded-full border border-gray-200 font-medium">English / French / Spanish</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-24 px-6 bg-brand-950 text-white" id="contact">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Let's talk.</h2>
+      <p class="text-gray-400 mb-3 text-lg">Whether you need a fractional CPO, a product strategy sprint,</p>
+      <p class="text-gray-400 mb-10 text-lg">or just want to think through a problem — I'd love to hear what you're working on.</p>
+      <a href="mailto:hello@xaki.com" class="inline-block text-lg font-semibold text-white bg-brand-600 rounded-full px-10 py-4 hover:bg-brand-700 transition-colors shadow-lg shadow-brand-600/30">
+        hello@xaki.com
+      </a>
+      <p class="text-gray-500 text-sm mt-6">Based in Toronto, Canada.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 bg-brand-950 border-t border-white/5">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+      <span>&copy; 2026 XAKI Consulting Services</span>
+      <div class="flex items-center gap-6">
+        <a href="https://www.linkedin.com/in/jeanphilippemoya/" target="_blank" rel="noopener" class="hover:text-gray-300 transition-colors">LinkedIn</a>
+        <a href="https://medium.com/@jeanphilippemoya" target="_blank" rel="noopener" class="hover:text-gray-300 transition-colors">Medium</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
